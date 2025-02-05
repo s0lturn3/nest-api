@@ -12,7 +12,7 @@ export class AppController {
   }
 
   @Get('names')
-  getNames(): string {
+  getNames(): string[] {
     return this.appService.getNames();
   }
 }

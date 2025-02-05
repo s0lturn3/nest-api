@@ -7,7 +7,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  getNames(): string {
-    return "Erick e Solturne";
+  getNames(): string[] {
+    return ["Erick", "Solturne"];
   }
 }
